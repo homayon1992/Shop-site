@@ -5,7 +5,7 @@ import LocalConvenienceStoreRoundedIcon from '@mui/icons-material/LocalConvenien
 import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
-    return (
+  return (
 
       <div className="header">
         <div className="header__logo">
