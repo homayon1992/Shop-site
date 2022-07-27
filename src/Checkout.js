@@ -1,5 +1,6 @@
 import React from "react";
 import CheckoutProduct from "./CheckoutProduct"
+import Subtotal from "./Subtotal";
 
 function Checkout() {
     return (
@@ -14,7 +15,7 @@ function Checkout() {
             </div>
 
             <div className="checkout__right">
-                <h3> your Baskets sum</h3>
+                <Subtotal />
             </div>
 
         </div>
