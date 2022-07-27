@@ -1,5 +1,5 @@
 import React from "react";
-
+import CheckoutProduct from "./CheckoutProduct"
 
 function Checkout() {
     return (
@@ -9,7 +9,7 @@ function Checkout() {
             
                 <div>
                     <h2 className="checkout__title"> your Shopping Bascket</h2>
-                    
+                    <CheckoutProduct />
                 </div>
             </div>
 
