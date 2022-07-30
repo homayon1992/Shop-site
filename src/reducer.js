@@ -1,3 +1,4 @@
+// here we difine all the applicaton lavel states and define action to make the chenges to the state
 
 export const initialState = {
     basket: [],
@@ -11,9 +12,9 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 basket: [...state.basket, action.item],
-            }
+            };
 
-        }
+    }
 }
 
 export default reducer
