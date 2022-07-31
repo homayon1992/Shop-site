@@ -17,7 +17,7 @@ function Subtotal() {
                 renderText={(value) => (
                     <>
                         <p>
-                            Subtotal({basket.lenght} items): <strong>${value}</strong>
+                            Subtotal({basket.lenght} item): <strong>${value}</strong>
                         </p>
 
                         <small className="subtotal__gift">
