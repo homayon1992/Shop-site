@@ -30,11 +30,13 @@ function Header() {
         </div>
 
         <div className="header__nav">
+          <Link to="/login" style={{ textDecoration : "none" }}>
             <div className="nav__item">
                 <span className="nav__itemLineOne">Hello Gust</span>
                 <span className="nav__itemLineTwo">Sing In</span>
             </div>
-            
+          </Link>
+          
             <div className="nav__item">
                 <span className="nav__itemLineOne">Your</span>
                 <span className="nav__itemLineTwo">Shop</span>
